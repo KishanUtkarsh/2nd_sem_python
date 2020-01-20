@@ -1,5 +1,6 @@
-i=1
-while(i<6):
-    print(i)
-    i+=1
-print('done')
+number=[1,2,3,4]
+max=0
+for i in number:
+    if i>max:
+        max=i
+print(max)
