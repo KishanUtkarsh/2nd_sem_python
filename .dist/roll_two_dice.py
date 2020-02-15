@@ -9,4 +9,4 @@ for i in range(1):
         
 
 print(f'({x},{y})')
-print('({0},{1})'.format(x,y))
+#   print('({0},{1})'.format(x,y))
