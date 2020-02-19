@@ -1,4 +1,10 @@
-from pathlib import Path
+N =input()
+A=N.split()
+B=[]
+for i in A:
+    if int(i)%5==0:
+        continue
+    B.append(i)
 
-path = Path('emails')
-path.rmdir()
+for i in B:
+    print(i,end="")

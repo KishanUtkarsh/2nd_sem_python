@@ -1,3 +1,2 @@
-a='kishan is a programer.'
-b=a[::-1]
-print(b)
+A=list(map(int, input().strip().split()))[:5]
+print(sorted(A)[-2],shorted(A)[1])
